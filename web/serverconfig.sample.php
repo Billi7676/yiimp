@@ -32,13 +32,13 @@ define('YAAMP_USE_NICEHASH_API', false);
 define('YAAMP_BTCADDRESS', '1Auhps1mHZQpoX4mCcVL8odU81VakZQ6dR');
 define('YAAMP_SITE_URL', 'yiimp.ccminer.org');
 define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); // change if your stratum server is on a different host
-define('YAAMP_SITE_NAME', 'YiiMP');
+define('YAAMP_SITE_NAME', 'AbsoluteCoin');
 define('YAAMP_ADMIN_EMAIL', 'yiimp@spam.la');
 define('YAAMP_ADMIN_IP', ''); // samples: "80.236.118.26,90.234.221.11" or "10.0.0.1/8"
 define('YAAMP_ADMIN_WEBCONSOLE', true);
 define('YAAMP_CREATE_NEW_COINS', true);
 define('YAAMP_NOTIFY_NEW_COINS', false);
-define('YAAMP_DEFAULT_ALGO', 'x11');
+define('YAAMP_DEFAULT_ALGO', 'lyra2v2');
 
 define('YAAMP_USE_NGINX', false);
 
@@ -80,14 +80,17 @@ $cold_wallet_table = array(
 
 // Sample fixed pool fees
 $configFixedPoolFees = array(
-        'zr5' => 2.0,
-        'scrypt' => 20.0,
-        'sha256' => 5.0,
+//        'zr5' => 2.0,
+//        'scrypt' => 20.0,
+//        'sha256' => 5.0,
 );
 
 // Sample custom stratum ports
 $configCustomPorts = array(
 //	'x11' => 7000,
+        'lyra2v2' => 45331,
+        'lyra2v2' => 45332,
+
 );
 
 // mBTC Coefs per algo (default is 1.0)
