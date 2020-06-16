@@ -96,7 +96,7 @@ foreach($list as $item)
 			"SELECT SUM(earnings) as b FROM hashstats WHERE time>$t4 AND algo=:algo", array(':algo'=>$algo));
 	}
 
-	$name = substr($coin->name, 0, 12);
+	$name = substr($coin->name, 0, 15);
 
 	echo '<tr class="ssrow">';
 
