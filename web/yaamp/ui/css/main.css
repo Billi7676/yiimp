@@ -4,16 +4,20 @@
 @import url("tags.css");
 @import url("news.css");
 @import url("objectmenu.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 
 body
 {
-	font: normal 10pt Arial,Helvetica,sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: white;
 	color: #444;
 	text-align: left;
 	margin: 0;
 	padding: 0;
 	scroll: no;
+	font-size: 0.8em;
+	line-height: 1.5em;
 }
 
 a, a:visited
