@@ -25,22 +25,22 @@ define('YAAMP_PAYMENTS_MINI', 0.001);
 define('YAAMP_ALLOW_EXCHANGE', false);
 define('YIIMP_PUBLIC_EXPLORER', true);
 define('YIIMP_PUBLIC_BENCHMARK', false);
-define('YIIMP_FIAT_ALTERNATIVE', 'EUR'); // USD is main
+define('YIIMP_FIAT_ALTERNATIVE', 'USD'); // USD is main
 
 define('YAAMP_USE_NICEHASH_API', false);
 
-define('YAAMP_BTCADDRESS', '1Auhps1mHZQpoX4mCcVL8odU81VakZQ6dR');
-define('YAAMP_SITE_URL', 'yiimp.ccminer.org');
+define('YAAMP_BTCADDRESS', '1xxx');
+define('YAAMP_SITE_URL', 'pool.absify.me');
 define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); // change if your stratum server is on a different host
-define('YAAMP_SITE_NAME', 'AbsoluteCoin');
-define('YAAMP_ADMIN_EMAIL', 'yiimp@spam.la');
+define('YAAMP_SITE_NAME', 'Absolute');
+define('YAAMP_ADMIN_EMAIL', 'pool_contact@absify.me');
 define('YAAMP_ADMIN_IP', ''); // samples: "80.236.118.26,90.234.221.11" or "10.0.0.1/8"
 define('YAAMP_ADMIN_WEBCONSOLE', true);
-define('YAAMP_CREATE_NEW_COINS', true);
+define('YAAMP_CREATE_NEW_COINS', false);
 define('YAAMP_NOTIFY_NEW_COINS', false);
 define('YAAMP_DEFAULT_ALGO', 'lyra2v2');
 
-define('YAAMP_USE_NGINX', false);
+define('YAAMP_USE_NGINX', true);
 
 // Exchange public keys (private keys are in a separate config file)
 define('EXCH_CRYPTOPIA_KEY', '');
@@ -75,7 +75,7 @@ define('NICEHASH_DEPOSIT_AMOUNT','0.01');
 
 
 $cold_wallet_table = array(
-	'1C23KmLeCaQSLLyKVykHEUse1R7jRDv9j9' => 0.10,
+	'1xxx' => 0.10,
 );
 
 // Sample fixed pool fees
