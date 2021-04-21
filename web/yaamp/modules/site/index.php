@@ -22,10 +22,10 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600)." hours";
       <br>
       <br>
       <div class="main-left-box">
-        <div class="main-left-title">AbsoluteCoin Mining Pool</div>
+        <div class="main-left-title">Absolute Mining Pool</div>
         <div class="main-left-inner">
           <ul>
-            <li>Welcome to the Absolute Coine Mining Pool!</li>
+            <li>Welcome to the Absolute Mining Pool!</li>
             <li>No registration is required, we do payouts in the currency you mine. Use your wallet address as the username.</li>
             <li>&nbsp;</li>
             <li>Payouts are made automatically every <?= $payout_freq ?> for all balances above <b><?= $min_payout ?></b>, or <b><?= $min_sunday ?></b> on Sunday.</li>
@@ -87,7 +87,7 @@ $payout_freq = (YAAMP_PAYMENTS_FREQ / 3600)." hours";
     </td>
 
     <td valign=top width=20%>
-        <a class="twitter-timeline" href="https://twitter.com/absolute_crypto" data-widget-id="617405893039292417" data-chrome="transparent" height="450px" data-tweet-limit="2" data-aria-polite="polite">Tweets about Absolute (ABS)</a>
+        <a class="twitter-timeline" href="https://twitter.com/Absifyme" data-widget-id="617405893039292417" data-chrome="transparent" height="450px" data-tweet-limit="2" data-aria-polite="polite">Tweets about Absolute (ABS)</a>
         <script>
         !function(d,s,id){
           var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
